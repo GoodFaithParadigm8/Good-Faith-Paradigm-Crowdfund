@@ -1,0 +1,41 @@
+[debug] [2018-09-13T21:53:05.522Z] ----------------------------------------------------------------------
+[debug] [2018-09-13T21:53:05.526Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jason\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-09-13T21:53:05.527Z] CLI Version:   4.0.3
+[debug] [2018-09-13T21:53:05.527Z] Platform:      win32
+[debug] [2018-09-13T21:53:05.527Z] Node Version:  v8.10.0
+[debug] [2018-09-13T21:53:05.528Z] Time:          Thu Sep 13 2018 16:53:05 GMT-0500 (Central Daylight Time)
+[debug] [2018-09-13T21:53:05.528Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-13T21:53:05.549Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-13T21:53:05.550Z] > authorizing via signed-in user
+[debug] [2018-09-13T21:53:05.554Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-09-13T21:53:05.555Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/peMP7IlsALNK3mBbydhMbwZOjdHMvkxedBoxokY5xRw',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Sep 13 2018 16:53:05 GMT-0500 (Central Daylight Time)
+[debug] [2018-09-13T21:53:05.789Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-13T21:53:05.865Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/y8-apps1  
+  
+ Thu Sep 13 2018 16:53:05 GMT-0500 (Central Daylight Time)
+[debug] [2018-09-13T21:53:06.129Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-13T21:53:06.131Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/y8-apps1/tokens  
+  
+ Thu Sep 13 2018 16:53:06 GMT-0500 (Central Daylight Time)
+[debug] [2018-09-13T21:53:06.533Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-13T21:53:06.534Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/y8-apps1  
+  
+ Thu Sep 13 2018 16:53:06 GMT-0500 (Central Daylight Time)
+[debug] [2018-09-13T21:53:06.785Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\jason\Documents\Training\AMP\ampstart\Good-Faith-Paradigm-Crowdfund'...
+[info] 
+[debug] [2018-09-13T21:53:06.793Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/301061357910/clients/_:getWebAppConfig  
+  
+ Thu Sep 13 2018 16:53:06 GMT-0500 (Central Daylight Time)
+[debug] [2018-09-13T21:53:07.017Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
